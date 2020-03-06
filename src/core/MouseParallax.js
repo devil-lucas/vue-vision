@@ -14,8 +14,8 @@ export default class MouseParallax {
     this.praxAttrEle = []; //  所有包含 ATTR_NAME 的子节点
     this.praxs = []; // 所有包含 ATTR_NAME 的元信息
     this.point = { // 鼠标坐标
-      x: -10,
-      y: -10,
+      x: 0,
+      y: 0,
     };
 
     if (this.TYPES.includes(ele.nodeType)) {
